@@ -1,0 +1,119 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1e1e1;
+    color: #333;
+}
+
+header {
+    background-color: #e1e1e1;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #e1e1e1;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#main {
+    flex: 3;
+    margin-right: 20px;
+}
+
+#main h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-book {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.author,
+.status {
+    color: #777;
+    margin: 5px 0;
+}
+
+#aside {
+    flex: 1;
+    background-color: #e1e1e1;
+    padding: 20px;
+}
+
+#aside p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#aside li {
+    margin-bottom: 10px;
+}
+
+#aside a {
+    text-decoration: none;
+    color: #333;
+}
+
+#aside a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
